@@ -49,7 +49,7 @@
 
 .hero {
     height: 720px;
-    background-image: url('images/hero.jpeg');
+    background-image: url('./images/hero.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
