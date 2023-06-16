@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Football Trivia</title>
+</head>
+<body>
+    <header id="home">
+        <div class="header-wrapper">
+            <a class="header-logo logo" href="#home">
+                &#9917 Football Trivia
+            </a>
+            <div class="menu-icon">
+                <span class="menu-icon-line line-1"></span>
+                <span class="menu-icon-line line-2"></span>
+                <span class="menu-icon-line line-3"></span>
+            </div>
+            <nav class="menu">
+                <ul class="menu-items">
+                    <li >
+                        <a class="menu-item-link" href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a class="menu-item-link" href="#how-to-play">How to Play</a>
+                    </li>
+                    <li>
+                        <a class="menu-item-link" href="#quiz">Quiz</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hero"></div>
+        <section id="how-to-play">
+            <div class="how-to-play-section">
+                <h3 class="how-to-play-title">How to Play</h4>
+                <p class="how-to-play-desc">It's a pilot version of this trivia with a few questions about football. So, you may ask, how do I play?</p>
+                <p>Playing the quiz couldn’t be easier.</p>
+                <p>Choose the answer from 4 options on each question. If it's correct, you'll get a 3 points. Click 'next' button to get the next question.</p>
+            </div>
+        </section>
+        <section id="quiz">
+            <div class="quiz-section">
+                <div class="quiz-top-block">
+                    <div class="quiz-question-counter">
+                        <span id="quiz-question-number"></span>
+                        <span id="quiz-question-amount"></span>
+                    </div>
+                    <div class="quiz-points-counter">
+                        <span id="quiz-points-number"></span>
+                        <span class="quiz-points">points</span>
+                    </div>
+                </div>
+                <p id="quiz-question"></p>
+                <div id="quiz-answers-wrapper"></div>
+                <button id="quiz-next-button" type="button">Next</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-wrapper">
+            <a class="footer-logo logo" href="#home">
+                &#9917 Football Trivia
+            </a>
+            <ul class="footer-items">
+                <li>All rights reserved.</li>
+                <li>Privacy Policy</li>
+                <li>Terms&Conditions</li>
+            </ul>
+        </div>
+    </footer>
+<script src="index.js"></script>
+</body>
+</html>
